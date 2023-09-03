@@ -1,0 +1,112 @@
+/*  Media Query */
+/* For the devices below this width */
+@media(max-width: 870px){
+    html{
+        font-size: 50%;
+    }
+    #contact .container{
+        height: 50vh;
+    }
+   #contact .top-contact{
+        /* border: 1px solid blue; */
+        max-width: 600px;
+       
+    }
+}
+
+@media(max-width: 768px){
+    html{
+        font-size: 40%;
+    }
+    header{
+        /* background: var(--dark-color); */
+        padding: 2.5rem;
+    }
+    .logo{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    nav li{
+        font-size: 2.5rem;
+    }
+    #hero .container{
+        height: 80vh;
+    }
+    .hero-image{
+     display: grid;
+     place-items: center;
+    }
+    .hero-image img{
+      
+        width: 55%;
+        border-radius: 10rem;
+    }
+    .hero-content{
+        /* border: 1px solid green; */
+        width: 80%;
+        /* margin-right: 15rem; */
+        font-size: 0.5rem;
+    }
+    /* .project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    } */
+    #contact .container{
+        /* border: 1px solid blue; */
+        height: 40vh;
+        }
+ }
+   
+
+@media(max-width: 500px){
+    html{
+        font-size: 32%;
+    }
+    #hero .container{
+        flex-direction: column;
+        height: 60vh;
+    }
+    .hero-image{
+        display: grid;
+        place-items: center;
+    }
+    .hero-content{
+        /* max-width: 70%; */
+        margin: 0 auto;
+    }
+   
+    .grid-item img{
+        width: 100%;
+        height: 60rem;
+    }
+    .project-container{
+        flex-direction: column;
+    }
+    .grid-item .card{
+        width: 55rem;
+    }
+    #contact .container{
+        height: 30vh;
+    }
+    .contact-way i{
+        font-size: 4rem;
+        }
+      
+    .contact-way h3{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    #contact .top-contact{
+        /* border: 1px solid green; */
+        max-width: 300px;
+        display: grid;
+        margin: 25px auto;
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+    .bottom-contact{
+        max-width: 300px;
+       padding-bottom: 2rem;
+    }
+}
